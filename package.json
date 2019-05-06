@@ -15,11 +15,13 @@
   "dependencies": {
     "bcrypt": "^3.0.6",
     "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
     "express": "^4.16.4",
     "express-fileupload": "^1.1.4",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.11",
     "mongoose": "^5.5.2",
+    "nodemailer": "^6.1.1",
     "nodemon": "^1.18.11"
   }
 }
