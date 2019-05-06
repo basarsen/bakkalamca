@@ -18,4 +18,4 @@ app.use('/basket', auth, require('./routes/basket'));
 app.use('/order', auth, require('./routes/order'));
 
 mongoose.connect(process.env.mongodbUri, { useNewUrlParser: true }, () => console.log('Connected to DB'));
-app.listen(1881, () => console.log('Server is running...'));
+app.listen(process.env.PORT, () => console.log('Server is running...'));
